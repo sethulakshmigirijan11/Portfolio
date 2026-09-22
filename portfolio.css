@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: #E5E7EB;
+    background: radial-gradient(circle at 50% 50%, #0B2A44 0%, #081A2A 45%, #030609 100%);
+    background-attachment: fixed;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+
+
+}
+
+.main-section {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.name {
+    padding-top: 20px;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    padding: 25px 50px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.about {
+    font-size: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 4vh;
+    padding-top: 40px;
+}
+
+.about-me {
+    padding-bottom: 20px;
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.education {
+    padding-bottom: 20px;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 25px;
+
+}
+.buttons a {
+    text-decoration: none;
+    padding: 12px 28px;
+   color: black;
+    border-radius: 6px;
+    background-color: white;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.contact {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.contact h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.contact-buttons a {
+    text-decoration: none;
+    padding: 12px 28px;
+    border: 1px solid #2563eb;
+    border-radius: 6px;
+    color: #2563eb;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+
+
+
